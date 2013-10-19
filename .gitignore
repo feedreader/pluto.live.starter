@@ -16,3 +16,15 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+##################
+# .bundle
+
+.bundle
+.bundle/
+.bundle/config
+
+############
+# ignore sqlite dbs (e.g. pluto.db etc.)
+
+*.db
