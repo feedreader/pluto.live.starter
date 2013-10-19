@@ -10,16 +10,12 @@ class Planet < Sinatra::Base
   ###################
   # Helpers
 
-  def path_prefix
-    request.script_name   # request.env['SCRIPT_NAME']
-  end
-  
   def feed_path( feed )
-    "#{path_prefix}/feed/#{feed.key}"
+    "/feed/#{feed.key}"
   end
-  
+
   def root_path()
-    "#{path_prefix}/"
+    "/"
   end
 
   ##############################################
