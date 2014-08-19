@@ -1,15 +1,13 @@
-require './boot'
+# encoding: utf-8
 
-### todo: check how we can auto-connect in Planet
-#  use activerecord.connected? or similar?
-
-Pluto.connect!   # try connect w/ DATABASE_URL
+require './config/boot'
 
 map '/' do
 
   run Planet
 
   map '/db' do
+    ### fix/todo: rename ::Server  to something different e.g. App/Engine/etc. use Server only for web server (e.g. Thin, Unicorn, Apache, etc.)
     run PlutoAdmin::Server
   end
 
