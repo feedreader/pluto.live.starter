@@ -26,7 +26,7 @@ end
 
 Sample template snippet:
 
-```erb
+```html
 <h1><%= site.title %></h1>
 
 <% site.items.latest.limit(24).each do |item| %>
