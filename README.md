@@ -3,7 +3,7 @@
 Example planet starter site - a Sinatra web app in Ruby
 using the [pluto gem](https://github.com/feedreader/pluto).
 
-~~~
+```ruby
 class Planet < Sinatra::Base
   
   ##########
@@ -19,14 +19,14 @@ class Planet < Sinatra::Base
   end
 
 end
-~~~
+```
 
 (Source: [`planet.rb`](planet.rb))
 
 
 Sample template snippet:
 
-~~~
+```erb
 <h1><%= site.title %></h1>
 
 <% site.items.latest.limit(24).each do |item| %>
@@ -47,7 +47,7 @@ Sample template snippet:
   </div>
 
 <% end %>
-~~~
+```
 
 (Source: [`views/index.erb`](views/index.erb))
 
@@ -83,7 +83,7 @@ Update your planet feeds:
 
     $ rake update
 
-Showtime! Startup the server:
+Showtime! Startup the web server:
 
     $ rackup
 
