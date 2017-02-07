@@ -136,10 +136,12 @@ Add a scheduler job to update feeds via `rake update` hourly, daily, etc.
 
 ## License
 
+![](https://publicdomainworks.github.io/buttons/zero88x31.png)
+
 The `pluto` scripts are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
 ## Questions? Comments?
 
-Send them along to the [Planet Pluto and Friends Forum/Mailing List](http://groups.google.com/group/feedreader).
+Send them along to the [wwwmake Forum/Mailing List](http://groups.google.com/group/wwwmake).
 Thanks!
