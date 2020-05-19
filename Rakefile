@@ -1,3 +1,3 @@
-require './boot'
+require './config/boot'
 
 Pluto.load_tasks
