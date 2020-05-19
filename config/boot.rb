@@ -23,8 +23,8 @@ pp $LOAD_PATH
 require 'sinatra/base'     # note: sinatra will pull in web server (e.g. rack)
 
 
-
-require 'pluto'                # note: pluto will pull in database access (e.g. activrecord)
+require 'pluto/update'    # note: pluto will pull in database access (e.g. activrecord)
+require 'pluto/tasks'
 
 require 'pluto/admin'          ### fix/todo: load pluto admin here (remove pluto/admin/server !!!)
 require 'pluto/admin/server'   # note: pluto admin server app (requires extra require)
