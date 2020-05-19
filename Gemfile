@@ -8,7 +8,7 @@ gem 'sinatra'
 ########################
 # databaase access
 
-gem 'activerecord', '=3.2.19' ## use 3.2.x series for now (still runs w/ Ruby 1.9.2)
+gem 'activerecord'
 
 group :production do
   gem 'pg'                # note: pg is PostgreSQL
@@ -26,6 +26,9 @@ gem 'thin'
 ##############################
 # our own (feedreader) gems
 
-gem 'pluto'
+gem 'pluto-models'
+gem 'pluto-feedfetcher'
+gem 'pluto-update'
+
 gem 'pluto-admin'
 
