@@ -29,6 +29,7 @@ gem 'thin'
 gem 'pluto-models'
 gem 'pluto-feedfetcher'
 gem 'pluto-update'
+gem 'pluto-tasks'
 
 gem 'pluto-admin'
 
